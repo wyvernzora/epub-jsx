@@ -1,6 +1,6 @@
 {
   "name": "epub-jsx",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Preact JSX bindings for creating EPUB documents",
   "main": "dist/index.js",
   "scripts": {
