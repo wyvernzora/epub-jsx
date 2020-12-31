@@ -12,7 +12,7 @@ npm install --save epub-jsx
 ## Examples
 ### toc.ncx
 ```tsx
-import { NCX, NCXProps, NavMap, NavPoint, renderToXmlString } from 'epub-jsx'
+import { NCX, NCXProps, NavMap, NavPoint, renderToXmlString } from '@wyvernzora/epub-jsx'
 
 const ncx =
     <NCX id='n9669bk' title='無職転生' author='理不尽な孫の手' metadata={}>
@@ -28,7 +28,7 @@ renderToXmlString(ncx) // Generates toc.ncx contents
 
 ### package.opf
 ```tsx
-import { OPF, renderToXmlString } from 'epub-jsx'
+import { OPF, renderToXmlString } from '@wyvernzora/epub-jsx'
 
 const opf =
     <OPF
@@ -64,7 +64,7 @@ renderToXmlString(opf) // Generates package.opf contents
 ### toc.xhtml
 
 ```tsx
-import { TableOfContents, Links, Link, renderToXhtmlString } from 'epub-jsx'
+import { TableOfContents, Links, Link, renderToXhtmlString } from '@wyvernzora/epub-jsx'
 
 const toc =
     <TableOfContents className='toc__wrapper'>
@@ -78,7 +78,7 @@ renderToXhtmlString(toc) // Generates toc.xhtml contents
 
 ### General XHTML file
 ```tsx
-import { Xhtml, renderToXhtmlString } from 'epub-jsx'
+import { Xhtml, renderToXhtmlString } from '@wyvernzora/epub-jsx'
 
 const pageWithPreactContent =
     <Xhtml title='プロローグ' language='ja_JP' stylesheets={[ '../../styles.css' ]}>
