@@ -6,7 +6,7 @@ If you would like to collaborate and push it towards full EPUB spec compliance, 
 
 ## Setup
 ```shell
-npm install --save epub-jsx
+npm install --save @wyvernzora/epub-jsx
 ```
 
 ## Examples
