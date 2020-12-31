@@ -1,4 +1,4 @@
-import { renderToXhtmlString, renderToXmlString } from '../src'
+import { renderToXhtmlString, renderToXmlString } from './index'
 
 describe('renderToXmlString', () => {
 

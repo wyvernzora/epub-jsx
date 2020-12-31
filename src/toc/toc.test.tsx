@@ -1,6 +1,6 @@
 import 'jest-xml-matcher'
 import render from 'preact-render-to-string'
-import { Link, TableOfContents } from '../../src'
+import { Link, TableOfContents } from '../index'
 
 describe('TOC', () => {
 

@@ -1,5 +1,5 @@
 import 'jest-xml-matcher'
-import { NCX, NCXProps } from '../../src'
+import { NCX, NCXProps } from '../index'
 import render from 'preact-render-to-string'
 
 describe('NCX', () => {

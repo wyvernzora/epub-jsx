@@ -1,6 +1,6 @@
 import 'jest-xml-matcher'
 import render from 'preact-render-to-string'
-import { Spine, SpineProps } from '../../src'
+import { Spine, SpineProps } from '../index'
 
 
 describe('OPF', () => {
