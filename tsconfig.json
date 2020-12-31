@@ -1,6 +1,7 @@
 {
   "exclude": [
-    "**/*.test.tsx"
+    "./**/*.test.{ts,tsx}",
+    "./dist/**"
   ],
   "compilerOptions": {
     /* Basic Options */
