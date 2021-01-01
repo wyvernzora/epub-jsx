@@ -1,10 +1,9 @@
-import { ComponentChildren, createElement, FunctionalComponent } from "preact";
+import { createElement, FunctionalComponent } from "preact";
 
 export interface XhtmlProps {
     title: string
     language: string
     stylesheets: string[]
-    children: ComponentChildren | string
 }
 
 export const Xhtml: FunctionalComponent<XhtmlProps> = props => createElement('html', {
