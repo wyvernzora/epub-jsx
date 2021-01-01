@@ -1,6 +1,6 @@
 import 'jest-xml-matcher'
 import { render } from 'preact-render-to-string'
-import { Xhtml } from './index'
+import { Xhtml } from '../src'
 
 
 describe('XHTML', () => {

@@ -1,5 +1,5 @@
 import 'jest-xml-matcher'
-import { Guide, GuideProps } from '../index'
+import { Guide, GuideProps } from '../../src'
 import render from 'preact-render-to-string'
 
 describe('OPF', () => {

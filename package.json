@@ -38,17 +38,14 @@
   "jest": {
     "rootDir": "./",
     "testMatch": [
-      "**/**.test.(ts|tsx)"
+      "**/test/**/*.test.(ts|tsx)"
     ],
     "transform": {
       "^.+\\.(ts|tsx)$": "ts-jest"
     },
     "collectCoverage": true,
     "collectCoverageFrom": [
-      "**/src/**",
-      "!**/dist/**",
-      "!**/node_modules/**",
-      "!**/**/*.test.{ts,tsx}"
+      "./src/**"
     ],
     "coverageReporters": [
       "html",

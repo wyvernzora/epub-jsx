@@ -4,6 +4,7 @@ export * from './ncx'
 export * from './opf'
 export * from './toc'
 export * from './xhtml'
+export * from './container'
 
 export const XmlHeader = `<?xml version="1.0" encoding="UTF-8"?>`
 export const XhtmlHeader = `${XmlHeader}<!DOCTYPE html>`

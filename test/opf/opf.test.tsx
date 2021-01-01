@@ -1,6 +1,6 @@
 import 'jest-xml-matcher'
 import render from 'preact-render-to-string'
-import { OPF, OPFProps } from '../index'
+import { OPF, OPFProps } from '../../src'
 
 const XmlNamespaces =
     'xmlns="http://www.idpf.org/2007/opf" ' +

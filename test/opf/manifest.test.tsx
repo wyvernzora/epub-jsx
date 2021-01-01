@@ -1,6 +1,6 @@
 import 'jest-xml-matcher'
 import render from 'preact-render-to-string'
-import { Manifest, ManifestProps } from '../index'
+import { Manifest, ManifestProps } from '../../src'
 
 describe('OPF', () => {
 
